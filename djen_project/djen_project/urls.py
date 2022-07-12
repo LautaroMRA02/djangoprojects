@@ -16,10 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from cd_library.views import hello_word
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', hello_word ),
 ]
